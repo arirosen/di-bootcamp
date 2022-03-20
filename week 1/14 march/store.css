@@ -1,0 +1,33 @@
+
+
+
+body{
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+nav{position: relative;
+background-color: darkgray;}
+
+div{
+    position: absolute;
+right: 0px; display: inline;
+padding: 15px;
+}
+a{
+    padding: 30px;
+    text-decoration: none; 
+    color: black;
+    position: static;
+}
+a:hover{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    
+    
+}
+
+
+

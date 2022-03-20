@@ -1,0 +1,13 @@
+body{background-color: darkgrey;}
+section{display: inline;
+
+
+}
+
+div{margin:10px;
+    padding-top: 50px;
+display: inline;
+}
+div:hover{background-color: black;
+padding: 5px;}
+

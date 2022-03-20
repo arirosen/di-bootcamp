@@ -1,0 +1,39 @@
+section{
+border: 2px solid black;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: repeat(4,1fr);
+grid-gap: 20px;
+
+}
+
+div{
+border:2px solid red;
+text-align: center;
+
+}
+
+
+.a{
+grid-column: 1 / span 2;
+}
+
+.b{
+grid-row: 2  /span 2;
+
+}
+
+.c{
+grid-row: 2 / span 1;
+
+}
+.d{
+    grid-row: 3/ span 2;
+}
+
+.e{ grid-row: 4 / span 1;
+}
+
+
+
+

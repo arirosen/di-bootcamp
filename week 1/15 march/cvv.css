@@ -1,0 +1,39 @@
+section{
+    
+    max-width:1000px; margin:0 auto;
+    border:2px solid darkgray;
+}
+
+.img{border-bottom: 25px solid darkgray;}
+
+h1{
+    margin: 0;
+    font-size:60px;
+    font-weight: 100;
+}
+nav{
+ 
+    max-width:900px; margin:0 auto;
+    display: flex;
+justify-content:space-between;
+margin-top: 50px;
+margin-bottom: 30px;
+}
+.line{border-bottom: 5px solid darkgray;width: 50px; margin: 10px 0 10px 0;}
+.line2{border-bottom: 5px solid darkgray;
+    max-width:800px; margin:0 auto;
+}
+.paragraph{margin-top: 50px;}
+
+article{ max-width:900px; margin:0 auto;
+display: flex;
+justify-content: space-between;
+
+}
+.outer{    margin-right: 50px;
+    padding: 20px;
+    border-right: 10px solid #ccc;
+}
+
+
+
