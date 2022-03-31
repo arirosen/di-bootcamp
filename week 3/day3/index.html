@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        #container {
+            width: 400px;
+            height: 400px;
+            position: relative;
+            background: yellow;
+        }
+
+        #animate {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background-color: red;
+        }
+
+
+
+
+
+
+
+/*Exercise 2: Drag & Drop*/
+
+
+        .fill {
+            background-color: blueviolet;
+            position: relative;
+            height: 150px;
+            width: 150px;
+            top: 5px;
+            left: 5px;
+            cursor: pointer;
+        }
+
+        .empty {
+            display: inline-block;
+            height: 160px;
+            width: 160px;
+            margin: 10px;
+            border: 3px black solid;
+            background-color: aquamarine;}
+.hold{
+    border: solid grey 4px;
+}
+.hovered{
+    background: whitesmoke;
+    border-style: dashed;
+}
+
+.invisible{
+    display: none;
+}
+
+
+
+
+
+
+
+        
+    </style>
+</head>
+
+<body>
+    <p><button onclick="myMove()">Click Me</button></p>
+    <div id="container">
+        <div id="animate"></div>
+    </div>
+
+
+    <div class="empty"></div>
+    <div class="fill" draggable="true"></div>
+    <div class="empty"></div>
+    <div class="empty"></div>
+    <div class="empty"></div>
+    <div class="empty"></div>
+
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
